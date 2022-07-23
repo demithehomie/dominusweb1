@@ -5,15 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <text>DMNS</text>
-        <text>DMNS</text>
-        <text>DMNS</text>
-        <text>DMNS</text>
-        <text>DMNS</text>
-        <img src={logo} className="App-logo" alt="logo" />
+       
         <nav class="navbar">
 
-<div class="logo">MUO</div>
+<div class="logo">MENU</div>
 
 <ul class="nav-links">
 
@@ -39,6 +34,13 @@ function App() {
   </div>
 </ul>
 </nav>
+
+<text>DMNS</text>
+        <text>DMNS</text>
+        <text>DMNS</text>
+        <text>DMNS</text>
+        <text>DMNS</text>
+        <img src={logo} className="App-logo" alt="logo" />
 
       </header>
       

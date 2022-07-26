@@ -1,44 +1,127 @@
-.App {
-  text-align: center;
-  background-color: #20bf55;
-  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+.container1 {
+  width:auto;
+  height: 3000px;
+  background-image: linear-gradient(to right, #60c3ff, #40b2fd, #1ca0f9, #008df4, #0079ed, #0079ed, #0079ed, #0079ed, #008df4, #1ca0f9, #40b2fd, #60c3ff);
+  color:whitesmoke;
 }
 
-.menu {
-color:aliceblue;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.texto1 h1  {
+  font-size: 5vw;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Signika', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.texto1 h2  {
+  font-size: 10vw;
+  font-family: 'Signika', sans-serif;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer h2 {
+  align-items: center;
+  justify-content: center;
+  font-family: 'Signika', sans-serif;
+  padding-left: 200px;
+  font-size: 10px;  
 }
 
-.App-header {
-  
-  min-height: 100vh;
-  display: flex;
- 
- 
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+body{
+	background:#222;
+	text-align:center;
+	font-size:180%;
+	
+	font-family: 'Signika', sans-serif;
+}
+.to-top{
+	color:white;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:white;
+	text-decoration:none;
+	transition:all .3s ease-out;
+}
+.to-top:before{
+	content:'▲';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em white;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color:rgb(50, 238, 3);
+	border-color:rgb(50, 238, 3);
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
 }
 
-.App-link {
-  color: #61dafb;
+.btn1 {
+  font-size: 30px;
+  font-family: 'Signika', sans-serif;
+  outline: solid 3px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn2 {
+  font-size: 20px;
+  font-family: 'Signika', sans-serif;
+  outline: none;
+  align-self: flex-start;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-body {
+  width: 70vw;
+  height: 35vw;
+}
+
+.card {
+  width: 70vw;
+  height: 22vw;
+  color:  #0079ed;
+  align-items: center;
+  margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+    border-radius: 15px 60px 15px 60px;
+}
+
+.card-img-top {
+  width: 5vw;
+  height: 5vw;
+  padding: 18px;
+  align-self: flex-start;
+  border-radius: 6 0px;
+}
+
+.card-title {
+  font-size: 2vw;
+  text-align: start;
+  align-self: flex-start;
+  font-family: 'Signika', sans-serif;
+}
+
+.card-text {
+  font-size: 1vw;
+  text-align: start;
+  align-self: flex-start;
+  font-family: 'Signika', sans-serif;
 }
